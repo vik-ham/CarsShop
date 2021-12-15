@@ -5,6 +5,7 @@ import './Header.css';
 
 import Catalog from '../Catalog/Catalog';
 import News from '../News/News';
+import Home from '../Home/Home';
 
 function Header() {
   return (
@@ -31,6 +32,7 @@ function Header() {
         </Navbar>
 
         <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/news' element={<News />} />
             <Route path='/catalog' element={<Catalog />}/>
         </Routes>
