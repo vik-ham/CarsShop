@@ -6,6 +6,7 @@ import './Header.css';
 import Catalog from '../Catalog/Catalog';
 import News from '../News/News';
 import Home from '../Home/Home';
+import About from '../About/About';
 
 function Header() {
   return (
@@ -16,8 +17,9 @@ function Header() {
                 <Navbar.Collapse className='nav-col' id='responsive-navbar-nav'>
                     <Nav className='mr-auto'>
                         <Nav.Link href='/'>Home</Nav.Link>
-                        <Nav.Link href='/news'>News</Nav.Link>
-                        <Nav.Link href='/catalog'>Catalog</Nav.Link>
+                        <Nav.Link href='/news'>Новини</Nav.Link>
+                        <Nav.Link href='/catalog'>Каталог</Nav.Link>
+                        <Nav.Link href='/about'>О нас</Nav.Link>
                     </Nav>
                     <Form inline className='nav-form'>
                         <FormControl 
@@ -35,6 +37,7 @@ function Header() {
             <Route path='/' element={<Home />} />
             <Route path='/news' element={<News />} />
             <Route path='/catalog' element={<Catalog />}/>
+            <Route path='/about' element={<About />}/>
         </Routes>
     </div>
   );
