@@ -1,18 +1,14 @@
 import React from 'react';
 import './Iteam.css';
 import {Col, Card, Button, Container, Row } from 'react-bootstrap';
-import CatalogIteam  from '../../catalog-iteam.json';
-
 
 
 function Iteam() {
-  function blok (props) {
-    
-  }
+
   return (
     <div className="Iteam">
-     <h1>Catolog</h1>
-     <Container className='mt-10'>
+           <h1>Catalog</h1>
+       <Container className='mt-10'>
        <Row>
          <Col>
           <Card style={{ width: '18rem' }}>

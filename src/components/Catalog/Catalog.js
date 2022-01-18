@@ -1,13 +1,14 @@
 import React from 'react';
-import './Catalog.css'
-import Iteam from '../Iteam/Iteam'
+import './Catalog.css';
+import Item  from '../Item/Item.js';
+
 
 function Catalog() {
   return (
     <div className="Catalog">
-      <Iteam />
+      {Item}
     </div>
   );
 }
-
+  
 export default Catalog;

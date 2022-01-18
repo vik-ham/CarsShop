@@ -1,7 +1,4 @@
-{
-  "status": "OK",
-  "code": 200,
-  "data": [
+ [
     {
       "id": 1,
       "title": "Машинка E-Revo 2.0 VXL Brushless",
@@ -111,4 +108,3 @@
       "image": "https://drrprr.com.ua/wp-content/uploads/2019/11/86086-4-E-Revo-Action-BLUE-3qtr-LtoR-DX1I0102.jpg"
     }
   ]
-}
