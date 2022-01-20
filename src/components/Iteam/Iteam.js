@@ -3,15 +3,12 @@ import './Iteam.css';
 import {Col, Card, Button, Container, Row } from 'react-bootstrap';
 
 
-function Iteam() {
-
-  return (
+return (
     <div className="Iteam">
-           <h1>Catalog</h1>
        <Container className='mt-10'>
        <Row>
          <Col>
-          <Card style={{ width: '18rem' }}>
+          <Card >
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
               <Card.Title>Card Title</Card.Title>
